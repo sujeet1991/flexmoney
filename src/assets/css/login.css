@@ -1,0 +1,505 @@
+body {
+  background-color: #fff !important;
+}
+.BodyContainer {
+  max-width: 960px;
+  width: 100%;
+  margin: 50px auto;
+}
+.main_wrapper {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+}
+.left_panel {
+  /* max-width: 390px; */
+  width: 50%;
+  float: left;
+  min-height: 100px;
+  /* position: absolute;
+  top: 25px; */
+  /* box-shadow: 0px 3px 6px 2px rgba(228, 229, 229, 0.75); */
+  box-sizing: border-box;
+}
+.right_panel {
+  min-height: 150px;
+  /* margin-left: 200px; */
+
+  width: 50%;
+  float: left;
+  background: #fff;
+  /* box-shadow: 0px 2px 6px 0px rgba(228, 229, 229, 0.75); */
+  box-sizing: border-box;
+}
+.head_line {
+  font-family: "pf_handbook_proregular";
+  font-size: 32px;
+  color: #6c7174;
+  font-weight: normal;
+  margin: 0;
+}
+.logout_wrap .head_line {
+  font-family: "pf_handbook_proregular";
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 90%;
+}
+.logout_wrap .click_here_text {
+  font-size: 13px;
+  max-width: 960px;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.pad70_80 {
+  padding-left: 80px;
+  padding-top: 70px;
+  padding-right: 30px;
+}
+.desc_text {
+  font-family: "pf_handbook_proregular";
+  font-size: 16px;
+  color: #6c7174;
+  padding-left: 80px;
+  margin-top: 20px;
+  padding-right: 80px;
+  line-height: 22px;
+}
+.Divider_sec {
+  width: 100%;
+  display: none;
+  background-color: #f7a500;
+  height: 2px;
+}
+.form_wrapper {
+  width: 100%;
+}
+.maxwid500 {
+  max-width: 510px;
+  text-align: left;
+  width: 100%;
+}
+.heading_title {
+  font-family: "pf_handbook_probold";
+  font-size: 35px;
+  color: #6c7174;
+  /* text-transform: uppercase; */
+  margin: 25px 0 20px;
+  margin-bottom: 10px;
+  /* letter-spacing: 2px; */
+}
+.blck_clr {
+  color: #000;
+}
+.sub_title {
+  font-family: "pf_encore_sans_probook";
+  font-size: 16px;
+  color: #6c7174;
+  margin: 20px 0;
+  line-height: 22px;
+  padding-right: 60px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.txtupper {
+  text-transform: uppercase;
+}
+.toggle-password {
+  position: absolute;
+  cursor: pointer;
+  right: 30px;
+  /* top: 49px; */
+  top: 22px;
+}
+.fa-eye-slash:before {
+  content: "\f070";
+}
+.Ajaxloader {
+  position: absolute;
+  width: 63px;
+  height: 30px;
+  right: -10px;
+  top: 25px;
+}
+.labelf {
+  color: #6c7174;
+  font-family: "pf_handbook_proregular";
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  display: block;
+}
+.textInput {
+  /* border: 1px solid #d1d1d1; */
+  border: 0px;
+  border-bottom: 1px solid #cdcece;
+  color: #000;
+  height: 50px;
+  /* border-radius: 4px; */
+  border-radius: 0px;
+  font-size: 18px;
+  font-family: "pf_handbook_proregular";
+  box-shadow: none;
+}
+.textInput:focus {
+  outline: none;
+}
+.form_center {
+  padding: 0;
+  padding-right: 80px;
+}
+.textInput::-webkit-input-placeholder {
+  /* Edge */
+  color: #cdcece;
+}
+.textInput:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #cdcece;
+}
+.textInput::placeholder {
+  color: #cdcece;
+}
+.form_margin {
+  margin-bottom: 30px;
+  position: relative;
+}
+.right_wrapper {
+  max-width: 450px;
+  margin: 10px 0px 0 0;
+  width: 100%;
+  float: left;
+  text-align: left;
+}
+.fgt_pwd {
+  /* position: absolute; */
+  cursor: pointer;
+  top: 0;
+  /* right: 17px; */
+  font-family: "pf_handbook_proregular";
+  font-size: 16px;
+  color: #969f6e;
+  text-decoration: underline;
+  position: relative;
+  text-align: right;
+}
+.resend_otp {
+  position: absolute;
+  top: 42px;
+  right: 17px;
+  font-family: "pf_handbook_proregular";
+  font-size: 16px;
+  color: #969f6e;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.btn_group {
+  text-align: right;
+}
+.backArrow {
+  text-decoration: none;
+}
+.backArrow,
+.backArrow:hover {
+  font-size: 18px;
+
+  border: 1px solid #3e593c;
+  display: inline-block;
+  color: #3e593c;
+
+  background-color: #fff !important ;
+  text-align: center;
+  text-decoration: none;
+}
+.backArrow img {
+  display: inline-table;
+  margin-right: 4px;
+  text-decoration: none;
+}
+.btn_green {
+  /* min-width: 155px; */
+  width: 100%;
+  border: 0px;
+  box-shadow: none;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+  font-family: "pf_encore_sans_proregular";
+  margin-bottom: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  background: #3e593c;
+}
+/* .btn_green:first-child{
+    margin-right: 20px;
+} */
+.login_lefthgt400 {
+  min-height: 430px;
+}
+.login_rgthgt400 {
+  min-height: 485px;
+}
+.signup_lefthgt400 {
+  min-height: 830px;
+}
+.signup_rgthgt400 {
+  min-height: 885px;
+}
+.small_text {
+  font-family: "pf_encore_sans_proregular";
+  font-size: 10px;
+  color: #6c7174;
+}
+.error-mg {
+  color: #c7222a;
+  font-family: "pf_encore_sans_probook";
+  font-size: 12px;
+  position: absolute;
+  margin-top: 4px;
+  line-height: 12px;
+  margin-left: 2px;
+}
+.form-control:focus {
+  outline: none;
+  /* border-color: #999; */
+  /* box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075), 0 0 9px rgba(0, 0, 0, 0.15); */
+  box-shadow: none;
+}
+.sign_btn {
+  border-radius: 4px;
+  font-family: "pf_encore_sans_proregular";
+  margin-bottom: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  background: #3e593c;
+  color: #fff;
+  padding: 10px 25px;
+  position: absolute;
+  left: 0;
+  margin: auto;
+  right: 0;
+  display: inline-block;
+  bottom: 40px;
+  width: 120px;
+}
+.sign_btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.error_Input .textInput {
+  border: 1px solid #bd2b2b;
+  /* background: #fbeeee; */
+  background: none;
+  color: #bd2b2b;
+}
+
+.error_Input .form-control {
+  /* border: 1px solid #bd2b2b; */
+  border: 0px;
+  border-bottom: 1px solid #bd2b2b;
+  /* background: #fbeeee; */
+  color: #bd2b2b;
+}
+.error_Input .textInput::placeholder {
+  color: #bd2b2b;
+}
+.martp140 {
+  margin-top: 140px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.mob {
+  text-indent: 25px;
+}
+.mobtxt {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  font-size: 16px;
+  font-family: "pf_handbook_proregular";
+  color: #000;
+}
+.edit_mob {
+  position: absolute;
+  right: 15px;
+  top: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "pf_handbook_proregular";
+  color: #969f6e;
+}
+.alert-success.alert {
+  /* max-width: 400px; */
+  z-index: 999;
+  display: inline-block;
+  /* position: absolute; */
+  width: 94%;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.black_color {
+  color: #000;
+  margin-bottom: 10px;
+}
+.logout_banner {
+  background: url(../images/logout_banner.jpg) no-repeat center 0;
+  width: 100%;
+  height: 320px;
+  max-width: 960px;
+  display: block;
+  background-size: 90%;
+  margin: 20px auto;
+}
+.logout_wrap {
+  margin: 0 20px;
+}
+.mob_signup {
+  /* display: none; */
+}
+.padlft0 {
+  padding-left: 0;
+}
+.small_text a {
+  color: #969f6e;
+  text-decoration: underline;
+}
+.login_tab {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  margin-bottom: 20px;
+}
+.login_tab li {
+  display: block;
+  color: rgba(108, 113, 116, 1);
+  font-family: "pf_handbook_proregular";
+  font-size: 17px;
+  padding-bottom: 10px;
+  float: left;
+  cursor: pointer;
+  padding: 10px 15px;
+  width: 50%;
+  border-bottom: 1px solid #cdcece;
+}
+.login_tab li.activeRadio {
+  color: #3e593c;
+  border-bottom: 3px solid #3e593c;
+}
+.img_src {
+  max-width: 70%;
+  display: block;
+  margin: 10px auto;
+}
+.top_minusRe {
+  margin-top: -15px;
+}
+.mob_signup {
+  display: block;
+  font-family: "pf_handbook_proregular";
+  font-size: 14px;
+  color: #6c7174;
+  text-align: left;
+}
+.signup_text_mob,
+.signup_text_mob:hover {
+  color: #3e593c;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 800px) {
+  .BodyContainer {
+    margin: 50px auto 20px;
+  }
+  .left_panel {
+    display: none;
+  }
+  .right_panel {
+    max-width: 500px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 0px;
+    min-height: auto;
+  }
+  .right_wrapper {
+    float: none;
+    margin-left: 30px;
+    margin-right: 0px;
+    max-width: 88%;
+  }
+  .alert-success.alert {
+    max-width: 96%;
+  }
+  .right_wrapper .col-md-11 {
+    padding-right: 0px;
+    padding-left: 0;
+  }
+  .heading_title,
+  .sub_title {
+    padding-left: 30px;
+  }
+  /* .signup_rgthgt400 .col-md-11{ padding-left:15px;} */
+  .fgt_pwd {
+    right: 0;
+  }
+  .martp140 {
+    margin-top: 0px;
+  }
+  .btn_green {
+    width: 100%;
+  }
+  .mob_signup {
+    display: block;
+    font-family: "pf_handbook_proregular";
+    font-size: 18px;
+    color: #6c7174;
+    text-align: left;
+  }
+  .signup_text_mob {
+    color: #969f6e;
+    text-decoration: underline;
+  }
+  .Ajaxloader {
+    top: 88px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .heading_title,
+  .sub_title {
+    padding-left: 20px;
+  }
+  .right_wrapper {
+    margin-left: 20px;
+  }
+  .logout_banner {
+    background-size: 100%;
+    height: 120px;
+  }
+  .Ajaxloader {
+    right: -22px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .BodyContainer {
+    margin: 20px auto;
+  }
+}

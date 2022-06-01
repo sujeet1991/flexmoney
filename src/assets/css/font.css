@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'pf_handbook_problack';
+    src: url('../fonts/pfhandbookpro-black_35431-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-black_35431-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_handbook_problack_italic';
+    src: url('../fonts/pfhandbookpro-blackitalic_35432-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-blackitalic_35432-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_handbook_probold';
+    src: url('../fonts/pfhandbookpro-bold_35433-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-bold_35433-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_handbook_probold_italic';
+    src: url('../fonts/pfhandbookpro-bolditalic_35434_1-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-bolditalic_35434_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_handbook_probold_italic';
+    src: url('../fonts/pfhandbookpro-bolditalic_35434-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-bolditalic_35434-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_handbook_proextra_thin';
+    src: url('../fonts/pfhandbookpro-extrathin_35435-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-extrathin_35435-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_handbook_proXThIt';
+    src: url('../fonts/pfhandbookpro-extrathinitalic_35436-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-extrathinitalic_35436-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_handbook_proitalic';
+    src: url('../fonts/pfhandbookpro-italic_35437-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-italic_35437-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_handbook_promedium_italic';
+    src: url('../fonts/pfhandbookpro-mediumitalic_35439-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-mediumitalic_35439-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_handbook_proregular';
+    src: url('../fonts/pfhandbookpro-regular_35440-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-regular_35440-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_handbook_prothin';
+    src: url('../fonts/pfhandbookpro-thin_35441-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-thin_35441-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_handbook_prothin_italic';
+    src: url('../fonts/pfhandbookpro-thinitalic_35442-webfont.woff2') format('woff2'),
+         url('../fonts/pfhandbookpro-thinitalic_35442-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ebd pro */
+@font-face {
+    font-family: 'pf_encore_sans_probold';
+    src: url('../fonts/pfencoresanspro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/pfencoresanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_encore_sans_probook';
+    src: url('../fonts/pfencoresanspro-book-webfont.woff2') format('woff2'),
+         url('../fonts/pfencoresanspro-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_encore_sans_promedium';
+    src: url('../fonts/pfencoresanspro-medium-webfont.woff2') format('woff2'),
+         url('../fonts/pfencoresanspro-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_encore_sans_proregular';
+    src: url('../fonts/pfencoresanspro-reg-webfont.woff2') format('woff2'),
+         url('../fonts/pfencoresanspro-reg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.in-progress {
+    pointer-events: none;
+	text-shadow: none;
+	color: rgba(255, 255, 255, 0.6)!important;
+	background: -webkit-linear-gradient(-45deg, rgba(150, 159, 110, 0.5) 25%, transparent 25%, transparent 50%, rgba(150, 159, 110, 0.5) 50%, rgba(150, 159, 110, 0.5) 75%, transparent 75%, transparent), -webkit-linear-gradient(top, #3e593c, #3e593c)!important;
+	background: -moz-linear-gradient(-45deg, rgba(150, 159, 110, 0.5) 25%, transparent 25%, transparent 50%, rgba(150, 159, 110, 0.5) 50%, rgba(150, 159, 110, 0.5) 75%, transparent 75%, transparent), -moz-linear-gradient(top,#3e593c,#3e593c);
+	background: -ms-linear-gradient(-45deg, rgba(150, 159, 110, 0.5) 25%, transparent 25%, transparent 50%, rgba(150, 159, 110, 0.5) 50%, rgba(150, 159, 110, 0.5) 75%, transparent 75%, transparent), -ms-linear-gradient(top,#3e593c,#3e593c)!important;
+	background: -o-linear-gradient(-45deg, rgba(150, 159, 110, 0.5) 25%, transparent 25%, transparent 50%, rgba(150, 159, 110, 0.5) 50%, rgba(150, 159, 110, 0.5) 75%, transparent 75%, transparent), -o-linear-gradient(top, #3e593c,#3e593c)!important;
+	background: linear-gradient(-45deg, rgba(150, 159, 110, 0.5) 25%, transparent 25%, transparent 50%, rgba(150, 159, 110, 0.5) 50%, rgba(150, 159, 110, 0.5) 75%, transparent 75%, transparent), linear-gradient(to top, #3e593c, #3e593c)!important;
+	-pie-background: linear-gradient(-45deg, rgba(150, 159, 110, 0.5) 25%, transparent 25%, transparent 50%, rgba(150, 159, 110, 0.5) 50%, rgba(150, 159, 110, 0.5) 75%, transparent 75%, transparent), linear-gradient(to top, #3e593c,#3e593c)!important;
+	background-repeat: repeat!important;
+	-webkit-background-size: 40px 40px, 100% 100%!important;
+	-moz-background-size: 40px 40px, 100% 100%!important;
+	-ms-background-size: 40px 40px, 100% 100%!important;
+	-o-background-size: 40px 40px, 100% 100%!important;
+	background-size: 40px 40px, 100% 100%!important;
+	-webkit-animation: progress-bar-stripes 2s linear infinite!important;
+	-moz-animation: progress-bar-stripes 2s linear infinite!important;
+	-ms-animation: progress-bar-stripes 2s linear infinite!important;
+	-o-animation: progress-bar-stripes 2s linear infinite!important;
+	animation: progress-bar-stripes 2s linear infinite!important;
+	outline: none
+}
+
+@-webkit-keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0
+	}
+	to {
+		background-position: 40px 0
+	}
+}
+
+@-moz-keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0
+	}
+	to {
+		background-position: 40px 0
+	}
+}
+
+@keyframes progress-bar-stripes {
+	from {
+		background-position: 0 0
+	}
+	to {
+		background-position: 40px 0
+	}
+}
+
+.in-progress:disabled {
+	cursor: default;
+	opacity: .5
+}
+
+.in-progress:hover {
+	color: rgba(255, 255, 255, 0.6)!important;
+}
+.padd0{
+    padding: 0px;
+}
+.mar0{ margin: 0;}
+.body_loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.75);
+}

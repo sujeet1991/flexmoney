@@ -1,0 +1,26 @@
+import React from 'react';
+import Header from './components/Header/header';
+import Footer from './components/footer/footer';
+import MainRoute from './containers/route/route';
+import {Aux} from './components/HOC/common';
+
+function App() {
+  if(window.location.pathname === '*'){
+    return(
+      <Aux>
+        <MainRoute />
+      </Aux>
+    );
+  }else{
+    return(
+    <Aux>
+      <Header />
+      <MainRoute />
+      <Footer />
+    </Aux>
+  );
+}
+ 
+}
+
+export default App;
